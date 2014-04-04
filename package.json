@@ -1,0 +1,26 @@
+{
+  "name": "Agile-Time-Box",
+  "version": "0.0.1",
+  "description": "Node CLI utility to help you keep track of time when using agile time boxes.",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guyellis/Agile-Time-Box.git"
+  },
+  "keywords": [
+    "agile",
+    "time-box"
+  ],
+  "author": "Guy Ellis <wildfiction@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guyellis/Agile-Time-Box/issues"
+  },
+  "homepage": "https://github.com/guyellis/Agile-Time-Box",
+  "dependencies": {
+    "moment": "^2.5.1"
+  }
+}
