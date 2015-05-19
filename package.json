@@ -1,6 +1,6 @@
 {
   "name": "agile-time-box",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node CLI utility to help you keep track of time when using agile time boxes.",
   "main": "app.js",
   "scripts": {
