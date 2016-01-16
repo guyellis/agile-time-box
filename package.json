@@ -1,15 +1,34 @@
 {
-  "name": "agile-time-box",
-  "version": "0.0.2",
   "author": "Guy Ellis <wildfiction@gmail.com>",
-  "description": "Keep track of time when using agile time boxes.",
   "bin": {
     "timebox": "./bin/timebox.js"
   },
-  "main": "./bin/timebox.js",
-  "scripts": {
-    "test": "npm test"
+  "bugs": {
+    "url": "https://github.com/guyellis/agile-time-box/issues"
   },
+  "dependencies": {
+    "async": "^1.0.0",
+    "debug": "^2.2.0",
+    "lodash": "^4.0.0",
+    "minimist": "^1.1.1",
+    "moment": "^2.10.3",
+    "play-sound": "0.0.5"
+  },
+  "description": "Keep track of time when using agile time boxes.",
+  "devDependencies": {
+    "eslint": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=5.0"
+  },
+  "homepage": "https://github.com/guyellis/agile-time-box",
+  "keywords": [
+    "agile",
+    "time-box"
+  ],
+  "license": "MIT",
+  "main": "./bin/timebox.js",
+  "name": "agile-time-box",
   "public": true,
   "publishConfig": {
     "registry": "http://registry.npmjs.org/"
@@ -18,27 +37,8 @@
     "type": "git",
     "url": "https://github.com/guyellis/agile-time-box.git"
   },
-  "keywords": [
-    "agile",
-    "time-box"
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/guyellis/agile-time-box/issues"
+  "scripts": {
+    "test": "npm test"
   },
-  "homepage": "https://github.com/guyellis/agile-time-box",
-  "dependencies": {
-    "async": "^1.0.0",
-    "debug": "^2.2.0",
-    "lodash": "^3.8.0",
-    "minimist": "^1.1.1",
-    "moment": "^2.10.3",
-    "play-sound": "0.0.5"
-  },
-  "engines": {
-    "node": ">=0.10"
-  },
-  "devDependencies": {
-    "eslint": "^0.21.2"
-  }
+  "version": "0.0.2"
 }
