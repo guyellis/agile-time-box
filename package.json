@@ -7,16 +7,16 @@
     "url": "https://github.com/guyellis/agile-time-box/issues"
   },
   "dependencies": {
-    "async": "^1.0.0",
+    "async": "^2.0.0",
     "debug": "^2.2.0",
     "lodash": "^4.2.1",
     "minimist": "^1.1.1",
     "moment": "^2.11.2",
-    "play-sound": "0.0.5"
+    "play-sound": "0.0.9"
   },
   "description": "Keep track of time when using agile time boxes.",
   "devDependencies": {
-    "eslint": "^1.10.3"
+    "eslint": "^3.0.0"
   },
   "engines": {
     "node": ">=5.0"
@@ -38,7 +38,7 @@
     "url": "https://github.com/guyellis/agile-time-box.git"
   },
   "scripts": {
-    "test": "npm test"
+    "test": ""
   },
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
